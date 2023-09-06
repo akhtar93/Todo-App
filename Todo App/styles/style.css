@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid green;
+}
+.todo-header{
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  padding: 20px;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+.todo-body{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: blanchedalmond;
+}
+.todo-footer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  background-color: aquamarine;
+}
+.todo-body ul li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  border: 1px solid darkblue;
+}
